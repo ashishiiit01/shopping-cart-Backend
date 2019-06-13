@@ -1,0 +1,22 @@
+{
+  "name": "myappmagic",
+  "version": "1.0.0",
+  "description": "display the product list and do payment integration for the specific user",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ashish kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.13",
+    "paypal-rest-sdk": "^1.8.1",
+    "shortid": "^2.2.14",
+    "stripe": "^7.1.0"
+  }
+}
